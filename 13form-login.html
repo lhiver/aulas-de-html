@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- doctype informa ao agente do usuario a versão do html que deve ser redenrizada -->
+<html lang="pt-br">
+
+    <head>         
+    <title>Ainda estou pensando no título</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Rodrigo souza">
+        <meta name="description" content="descrição da página">
+        <meta name="keywords" content="tags, nomes, coisas">
+        
+        <style>
+            .campo{
+                background-color: black;
+            }
+            legend{
+                color: red;
+                font-size: 32px;
+            }
+            #user{
+                background-color: red;
+                color: white;
+            }
+            label{
+                color: white;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+    <!-- comentarios -->
+        <h1>exemplo de formulario</h1>
+        
+        <form action="#" method="post">
+        <fieldset class="campo">
+            <legend>login</legend>
+            <label for="user">Digite o nome de úsuario</label>
+            <input type="text" id="user" name="user" autofocus>
+            
+            <label for="pass"> Digite a senha</label>
+            <input type="password" id="pass" name="pass">
+            
+            <input type="submit" value="Logar">
+                   </fieldset>
+        </form>
+    </body>
+</html>

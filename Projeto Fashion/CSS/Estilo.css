@@ -1,0 +1,102 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    text-align: center;
+}
+.principal{
+    width: 1024px;
+    margin: 20px auto;
+    
+}
+.menu{
+    background-color: #162028;
+    height:50px;
+    position: relative;
+}
+.logo{
+    margin-right: 600px;
+    margin-top: 5px;
+}
+        
+.navegacao{
+    list-style: none; 
+    position: absolute;
+    top:0;
+    right:0;
+    margin-right: 30px;
+        
+}
+.navegacao li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #425564;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-right: 10px;
+    letter-spacing: 5px;
+    transition: color .3s linear;
+}
+a:hover{
+    color: white;
+}
+
+.artigo-01{
+    width: 80%;
+    margin: auto;
+}
+.artigo-01 h1{
+     text-align: center;
+    font-size: 25px;
+}
+.artigo-01 p{
+    text-align: center;
+    text-justify: auto;
+    color: #5d5a5a;
+    letter-spacing: 1.5px;
+}
+.cards{
+    width: 270px;
+    display: inline-block;
+}
+.titulo{
+    color: #2e2d2d;
+    text-transform: uppercase;
+}
+.texto{
+    color:#7e7979;
+}
+.parte-azul{
+    background-image: url(../Imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 100px;
+    background-position: right bottom;
+    text-align: justify;   
+}
+.parte-azul h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.parte-azul p{
+    width: 70%;
+    line-height: 1.5;
+    color: white;
+    letter-spacing: 1.5px;           
+}
+
+.callme{
+    color:#1d4360;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.copy{
+    color:#b5efef;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    padding-top: 25px;
+}

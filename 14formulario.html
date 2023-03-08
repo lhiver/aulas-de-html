@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- doctype informa ao agente do usuario a versão do html que deve ser redenrizada -->
+<html lang="pt-br">
+
+    <head>         
+    <title>Ainda estou pensando no título</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Rodrigo souza">
+        <meta name="description" content="descrição da página">
+        <meta name="keywords" content="tags, nomes, coisas">
+        
+        <style>
+            
+        </style>
+        
+    </head>
+
+    <body>
+    <!-- comentarios -->
+        <h1>Preencha seus dados</h1>
+        
+        <form action="#" method="post">
+            <fieldset>
+           
+            <label>Email</label>
+            <input type="email" required>
+            <br>
+            <label>Data de nascimento</label>
+        <input type="date" min="1950-01-30" max="2002-01-30" required>
+            <br>
+            <label>Sexo</label>
+            <input type="radio" name="sexo" value="M">
+            <label>Maculino</label>
+            <input type="radio" name="sexo" value="F">
+            <label>Feminino</label>
+            <br>
+            <label>Número de filhos</label>
+            <input type="number" min="0" max="1000">
+            <br>
+            <select name="ESTADO">
+                <option value="0">Selecione</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="TO">Tocantins</option>
+                <option value="VE">Venécia</option>
+                <option value="CE">Ceará</option> 
+                </select>   
+                       
+                </fieldset>
+            <fieldset>
+            <legend>Área de interesse</legend>
+                <label><input type="checkbox" name="HTML" value="HTML">html</label>
+                
+                 <label><input type="checkbox" name="CSS" value="CSS">css</label>
+                
+                     <label><input type="checkbox" name="JS" value="JS">javascript</label>
+    
+            </fieldset>
+            
+            <fieldset>
+            
+            <legend>Mensagem</legend>
+            <textarea style="resize: none" name="msg" cols="30" rows="10"></textarea>
+                
+                <legend>Termos de uso</legend>
+            <textarea style="resize: none" name="termos" cols="30" rows="10" readonly> Leia o contrato antes de enviar seus dados para nós.
+                </textarea>
+                <labe> 
+                <input type="checkbox" required> Li e aceito
+                </labe>
+            
+            </fieldset>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Apagar tudo">
+        </form>
+        All rights reserverd
+    </body>
+</html>

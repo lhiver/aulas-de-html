@@ -1,0 +1,97 @@
+<!doctype html>
+<!-- doctype informa ao agente do usuario a versão do html que deve ser redenrizada -->
+<html lang="pt-br">
+
+    <head>         
+    <title>tabelas</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Rodrigo souza">
+        <meta name="description" content="descrição da página">
+        <meta name="keywords" content="tags, nomes, coisas">
+        
+        <style>
+            body{
+                font-family: sans-serif;
+            }
+            caption{
+                font-size: 30px;
+                text-transform: uppercase;
+                
+                background:  #5e94b5;
+            }
+            table{
+                border-collapse: collapse;
+                width: 80%;
+                margin: auto;
+                background-color: #8cbddd;
+            }
+            th{
+                background: #7297af;
+            }
+            td{
+            
+                text-align: center;
+                padding: 10px;
+            }
+            tfoot td{
+                background: #5e94b5;
+            }
+            .separador{
+                border-top: 20px solid #7297af;
+            }
+        
+        </style>
+    </head>
+
+    <body>
+    <table>
+        <caption><b>tabela de preço de cursos</b></caption>
+            <thead>
+                <tr>
+                <tr>
+                    <th>Área</th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>    
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">sujeito a alterações sem aviso previo</td>
+                </tr>
+        
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Design</td>
+                    <td>Indesign</td>
+                    <td>R$ 1,000,00</td>
+                </tr>
+                <tr>
+                    <td>photoshop</td>
+                    <td>R$ 1,000,00</td>
+                </tr>
+                <tr>
+                    <td>Corel draw</td>
+                    <td>R$ 1,000,00</td>
+                </tr>
+                <tr class="separador">
+                    <td rowspan="4">Programação front end</td>
+                    <td>HTML</td>
+                    <td>R$ 1,000,00</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>R$ 1,000,00</td>
+                </tr>
+                <tr>
+                    <td>javascript</td>
+                    <td>R$ 1,000,00</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>R$ 1,000,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<!-- doctype informa ao agente do usuario a versão do html que deve ser redenrizada -->
+<html lang="pt-br">
+
+    <head>         
+    <title>Ainda estou pensando no título</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Rodrigo souza">
+        <meta name="description" content="descrição da página">
+        <meta name="keywords" content="tags, nomes, coisas">
+    </head>
+
+    <style>
+
+        .div1{
+            width: 150px;
+            height: 150px;
+            background-color: brown;
+            /*  transform muda a posição do elemento baseado no seu próprio tamanho */
+            transform: translate(50%,50%)
+        }
+        .div2{
+            margin-top: 100px;
+            width: 50%;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+        .div2-interna{
+            background-color: yellow;
+            transform: translate(50%);
+        }
+
+        .div3{
+           width: 50%; 
+           margin-top: 100px;       
+           overflow: hidden;
+           border: solid 2px black;  
+        }
+        .div3-interna{
+            transform: rotate(-10deg);
+            background-color: yellow;
+        }
+        .div4{
+            width: 100px;
+            height: 100px;
+            margin-top: 100px;
+            overflow: hidden;
+            background-color: orange;
+            transform: skewX(30deg);
+        }
+        
+    </style>
+
+    <body>
+
+        <div class="div1">div1</div>
+        <br>
+
+        <div class="div2">
+            <div class="div2-interna"> conteudo qualquer</div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat excepturi incidunt sint voluptates neque enim alias deserunt. Non qui neque odio commodi soluta nostrum consectetur, eligendi, alias dolor excepturi laborum?
+                </p>
+        </div>
+    
+        <div class="div3">
+            <div class="div3-interna"> conteudo qualquer</div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat excepturi incidunt sint voluptates neque enim alias deserunt. Non qui neque odio commodi soluta nostrum consectetur, eligendi, alias dolor excepturi laborum?
+                </p>
+        </div>
+       
+        <div class="div4"> div4</div>
+    
+
+    </body>
+</html>
